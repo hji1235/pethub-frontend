@@ -6,7 +6,7 @@ export default function Index() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>환영합니다!</Text>
+            <Text style={styles.title}>펫 허브에 오신걸 환영합니다!</Text>
             <Button title="로그인하기" onPress={() => router.push('/login')} />
         </View>
     );
